@@ -2,17 +2,14 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
+
+    background: #F5F7FB;
 }
 
 .App{
     display: flex;
-    align-items: center;
     justify-content: center;
-    width: 500px;
-    height: 500px;
-    background: #F5F7FB;
-    border: 1px solid #000000;
+    
 }
 
 .start-page{
@@ -52,4 +49,32 @@ body{
     color:white;
 
     cursor: pointer;
+}
+
+
+
+.answers{
+    display: flex;
+    margin: 0px;
+}
+.answers--button{
+    border-radius: 12px;
+    background-color: white;
+    cursor: pointer;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12.24px;
+
+    text-align: center;
+
+    color: #293264;
+
+    padding: 5px 10px 5px 10px;
+    margin-right: 10px;
+}
+
+.question{
+    margin-left: 40px;
 }
